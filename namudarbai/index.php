@@ -1,3 +1,3 @@
 <?php
-echo "Labas,pasauli!";
+    echo "Labas,pasauli!";
 ?>
