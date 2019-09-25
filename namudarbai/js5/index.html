@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS5</title>
+</head>
+
+<body>
+    <p>N-18</p>
+    <input id="age" value="18"/>
+    <button onclick="myFunction()">press</button>
+    <p id="nzn"></p>
+
+    <script>
+    function myFunction() {
+        var age, buy;
+        age = Number(document.getElementById("age").value);
+        if (isNaN(age)){
+            buy = "it is not a number";
+        } else {
+        buy = (age < 18) ? "False" : "True"; }
+
+        document.getElementById("nzn").innerHTML = buy;
+    }
+
+    </script>
+</body>
+</html>
